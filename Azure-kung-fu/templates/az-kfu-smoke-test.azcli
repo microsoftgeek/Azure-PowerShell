@@ -1,0 +1,11 @@
+#!/bin/bash
+#################################################################################
+# project: az-kung-fu
+# http://azkungfu.io
+# MIT License - https://github.com/Build5Nines/az-kung-fu
+#################################################################################
+# Used to smoke test while building scripts for this repo
+##################################################################################
+
+## Assign your Azure subscription name or id
+az account set -s "az-kung-foo-bar"

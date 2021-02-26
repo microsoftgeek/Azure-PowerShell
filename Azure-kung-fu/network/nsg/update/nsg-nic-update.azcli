@@ -1,0 +1,24 @@
+#!/bin/bash
+###########################################################################################
+# Stormtrooper Project 
+# MIT License - https://github.com/deltadan/stormtrooper
+# Copyright (c) 2018 Dan Patrick - @deltadan
+#
+# Script Purpose
+# - Assoicate a NSG with an Exsisting NIC (NSG & NIC must exsist see /network/nsg-create.azcli
+#   & /network/nic-create.azcli)
+###########################################################################################
+
+## Assign your Azure subscription name or id
+az account set -s "[subscription_name_here]"
+
+## Assign variables
+rg=[resource_group_name]
+location=[azure_region_name]
+nicName=[your_nic_name]
+nsgName=[your_nsg_name]
+
+# Associate the NSG with an exsisting NIC
+az network nic update -g $rg \
+                      -n $nicName \
+                      --network-security-group $nsgName
