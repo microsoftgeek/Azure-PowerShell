@@ -1,7 +1,7 @@
 ﻿#Import-Module -Name Az -Force
 
 #connect
-#Connect-AzAccount -Tenant 'shutterfly.onmicrosoft.com' -SubscriptionId '5fbc0d4d-b0b0-4215-ba2b-b03dc3ec3526'
+#Connect-AzAccount -Tenant 'company.onmicrosoft.com' -SubscriptionId '000-000-000-000-000'
 
 
 #Provide Input. Firewall Policy Name, Firewall Policy Resource Group & Firewall Policy Rule Collection Group Name
