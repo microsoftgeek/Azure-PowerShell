@@ -1,0 +1,1 @@
+﻿Get-AzExpressRouteCircuitRouteTableSummary -ResourceGroupName: <express-route-resource-group-name> -ExpressRouteCircuitName: <express-route-circuit-name> -PeeringType: AzurePrivatePeering -DevicePath: Primary | Format-Table

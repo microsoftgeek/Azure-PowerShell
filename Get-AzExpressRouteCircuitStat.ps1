@@ -1,0 +1,1 @@
+﻿Get-AzExpressRouteCircuitStat -ResourceGroupName: <express-route-resource-group-name> -ExpressRouteCircuitName: <express-route-circuit-name> -PeeringType: AzurePrivatePeering | Format-Table

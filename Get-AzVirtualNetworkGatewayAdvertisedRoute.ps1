@@ -1,0 +1,1 @@
+﻿Get-AzVirtualNetworkGatewayAdvertisedRoute -VirtualNetworkGatewayName <virutal-gateway-name> -ResourceGroupName <vng-resource-group-name> -Peer <bgp-remote-peer-ip-address> | Format-Table

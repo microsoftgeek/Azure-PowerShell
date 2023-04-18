@@ -1,0 +1,1 @@
+﻿Get-AzureRmVirtualNetwork -Name <My-vnet-name> -ResourceGroupName <vnet-resource-group-name> | Get-AzureRmVirtualNetworkSubnetConfig | Format-Table
